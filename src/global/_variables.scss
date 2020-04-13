@@ -1,0 +1,13 @@
+// import variables in another Sass-file:
+// @import './global/variables'; 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+$main-color: black;
+$secondary-color: green;
+$highlight-color: pink;
+$background-color: teal;
+
+$font-color: black;
+$font-headline: 'Raleway', 'Arial-Black', sans-serif;
+$font-text: sans-serif;

@@ -1,3 +1,9 @@
+## Portfolio
+This is my online portfolio, built with modern web development tools such as React.js, Sass and Bootstrap. 
+
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

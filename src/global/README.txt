@@ -1,5 +1,5 @@
 Any global variables and styles
-Ex: Routes, Permissions, global css
+Ex: Routes, Permissions, global css/scss
 
 Structure:
 

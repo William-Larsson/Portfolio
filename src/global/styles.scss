@@ -1,0 +1,14 @@
+@import './variables';
+
+:root {
+    background-color: $background-color;
+}
+
+div {
+    background-color: $secondary-color;
+    color: $main-color;
+}
+
+.test{
+    font-family: $font-headline;
+}
