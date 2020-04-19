@@ -1,14 +1,15 @@
 import React from 'react'
 import Navigation from './Navigation'
-import MainContent from './MainContent'
+import MainContainer from './MainContainer'
 import Footnote from './Footnote'
 
 function App() {
     return (
         <>
             <Navigation />
-            <MainContent />
+            <MainContainer />
             <Footnote />
+            <div className="sizeTest"></div>
         </>
     )
 }

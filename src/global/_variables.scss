@@ -2,12 +2,18 @@
 // @import './global/variables'; 
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+//Colors
 $main-color: black;
 $secondary-color: green;
 $highlight-color: pink;
-$background-color: teal;
+$background-color: lightblue;
 
+//Fonts
+$font-size-base: 62.5%; // 16px -> 10px
 $font-color: black;
-$font-headline: 'Raleway', 'Arial-Black', sans-serif;
-$font-text: sans-serif;
+$font-headline: 'Raleway', sans-serif;
+$font-paragraph: 'Montserrat', gotham, sans-serif;
+
+//Misc

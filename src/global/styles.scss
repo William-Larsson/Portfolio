@@ -2,13 +2,38 @@
 
 :root {
     background-color: $background-color;
+    font-size: $font-size-base;
 }
 
-div {
-    background-color: $secondary-color;
-    color: $main-color;
-}
-
-.test{
+h1, h2, h3, h4, h5, h6 {
     font-family: $font-headline;
+}
+
+p {
+    font-family: $font-paragraph;
+}
+
+
+
+// remove these later
+div {
+    border-style: solid;
+    border-color: red;
+}
+
+div div {
+    border-color: lightgreen;
+}
+
+div div div {
+    border-color: turquoise;
+}
+
+div div div div {
+    border-color: orange;
+}
+
+.sizeTest {
+    width: 1rem;
+    height: 1rem;
 }

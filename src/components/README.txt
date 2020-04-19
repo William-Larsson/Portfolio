@@ -1,4 +1,5 @@
 Add individual React components here.
+Rule of thumb: no internal state, such as view components
 Ex: Buttons, TextAreas etc
 
 Structure:
