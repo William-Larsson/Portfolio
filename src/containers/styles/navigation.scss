@@ -1,5 +1,33 @@
 @import '../../global/variables'; 
 
+.navbar-custom {
+    a { // for the changing (link) text color in navbar
+        color: $font-color !important;
+    }
+    background-color: $background-color;
+    padding: 2rem 0rem 2rem 0rem !important;
+}
+
+
+.navbarToggle {
+    outline: none !important;
+    border: none !important;
+    background-color: $background-color;
+    font-size: $font-size-h4 !important;
+    padding: 0px !important;
+
+    &.navbarToggle:hover {
+        background-color: red !important;
+    }
+}
+
+
+
 .navbarBrand {
     font-family: $font-headline;
+    font-size: $font-size-h4 !important;
+
+    &:hover {
+        text-decoration: underline !important;
+    }
 }

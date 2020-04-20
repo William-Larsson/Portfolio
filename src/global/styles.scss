@@ -1,21 +1,71 @@
 @import './variables';
+@import './include-media';
 
+// ----- Global Styles ----- //
 :root {
     background-color: $background-color;
     font-size: $font-size-base;
+    padding: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-headline;
+    color: $font-color;
 }
 
 p {
     font-family: $font-paragraph;
+    color: $font-color;
 }
 
 
 
-// remove these later
+/* TODO: make it so that the font-size are determined by 
+         by screen size. 
+         Ex: largedesktop / 12 = 160 px (for h1)
+             phone / 6 = 69 px (for h1) 
+*/
+
+// ----- Media Query specific styles ----- //
+@include media('<=phone') {
+    
+    h1 { font-size: 40px !important; }
+    p { font-size: px !important;}
+}
+
+
+@include media('>phone', '<=tablet'){
+    
+    h1 { font-size: 60px !important; }
+    p { font-size: px !important;}
+}
+
+
+@include media('>tablet', '<=desktop'){
+    
+    h1 { font-size: 80px !important; }
+    p { font-size: px !important;}
+}
+
+
+@include media('>desktop', '<=largedesktop'){
+    
+    h1 { font-size: 100px !important; }
+    p { font-size: px !important;}
+}
+
+
+@include media('>largedesktop'){
+    
+    h1 { font-size: 120px !important; }
+    p { font-size: px !important;}
+
+}
+
+
+
+
+// TODO: remove these later
 div {
     border-style: solid;
     border-color: red;
