@@ -6,9 +6,9 @@ import Footnote from './Footnote'
 function App() {
     return (
         <>
-            <Navigation />
+            {/**<Navigation />
             <MainContainer />
-            <Footnote />
+            <Footnote />*/}
             <div className="sizeTest"></div>
         </>
     )
