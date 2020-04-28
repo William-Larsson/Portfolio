@@ -1,37 +1,35 @@
-// import variables in another Sass-file:
-// @import './global/variables'; 
+// Usage: @import './global/variables'; 
 
-//@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 // Media query breakpoints
 $breakpoints: (
-  'phone': 414px, // for iPhone 8 Plus etc.
+  'phone': 415px, // for iPhone 8 Plus etc.
   'tablet': 768px, // TODO: might need to change these to point that make more sense?
   'desktop': 1366px,
-  'largedesktop': 1920px
+  'largeDesktop': 1920px
 ) !default;
 
 
 //Colors
 $main-color: black;
-$secondary-color: green;
+$secondary-color: orange;
 $highlight-color: pink;
-$background-color: lightblue;
+$background-color: #fcfcfc;
 
 
 //Fonts
 $font-size-base: 10px;
 $font-color: black;
-$font-headline: 'Bellefair', serif;
-$font-text: 'Montserrat', gotham, sans-serif;
+$font-headline: 'Montserrat', sans-serif;
+$font-text: 'Raleway', sans-serif;
 
 $font-size-h1: 16rem;
 $font-size-h2: 4rem;
 $font-size-h3: 3rem;
 $font-size-h4: 2.3rem;
 $font-size-p:  1.8rem; // aka 18px 
+
 
 //Misc

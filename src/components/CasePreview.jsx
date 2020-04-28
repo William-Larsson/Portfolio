@@ -5,8 +5,9 @@ import './styles/casePreview.scss'
 function CasePreview() {
     return (
         <div>
-            <h1>WELCOME.</h1>
-            <p>My name is William. <br /> I'm a software developer
+            <h1 class="header" id="headerTop">WEL</h1>
+            <h1 class="header">COME.</h1>
+            <p class="caseDesc">My name is William. I'm a software developer
             currently studying a Master of Science in
             Interaction technology and design.
             </p>

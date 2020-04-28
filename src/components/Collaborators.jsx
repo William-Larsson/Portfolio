@@ -5,9 +5,9 @@ function Collaborators() {
         <div>
             <h3>previous collaborators</h3>
             <div>
-                <img src="" alt="company1" />
-                <img src="" alt="company2" />
-                <img src="" alt="company3" />
+                <img src="" alt="organization1" />
+                <img src="" alt="organization2" />
+                <img src="" alt="organization3" />
             </div>
         </div>
     )

@@ -3,7 +3,6 @@
 // ----- Global Styles ----- //
 :root {
     background-color: $background-color;
-    font-family: $font-text;
     font-size: $font-size-base;
     padding: 0px;
 }
@@ -14,36 +13,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    // TODO: can i break out color: $font-color to the :root {} ?
     color: $font-color;
+    font-family: $font-text;
 }
 
-
-
-
-// TODO: remove these later
 div {
-    border-style: solid;
-    border-color: red;
+    background-color: $background-color;
 }
-
-div div {
-    border-color: lightgreen;
-}
-
-div div div {
-    border-color: turquoise;
-}
-
-div div div div {
-    border-color: orange;
-}
-
-.sizeTest {
-    width: 1rem;
-    height: 1rem;
-}
-
-
 
 
 
@@ -57,12 +34,5 @@ div div div div {
 // ----- Media Query specific styles ----- //
 // NOTE: media queries should always be a the bottom
 @media(min-width: map-get($breakpoints, 'phone')) {
-    
-    h1 { font-size: 40px !important; }
-    p { font-size: px !important;}
-
-    .sizeTest {
-        width: 20rem;
-        height: 20rem;
-    }
+    // styles for anything large than a phone goes here
 }

@@ -3,6 +3,7 @@
 .navbar-custom {
     a { // for the changing (link) text color in navbar
         color: $font-color !important;
+        font-family: $font-text;
     }
     background-color: $background-color;
     padding: 2rem 0rem 2rem 0rem !important;
@@ -15,6 +16,7 @@
     background-color: $background-color;
     font-size: $font-size-h4 !important;
     padding: 0px !important;
+    margin: 0px !important;
 
     &.navbarToggle:hover {
         background-color: red !important;
@@ -22,12 +24,28 @@
 }
 
 
-
 .navbarBrand {
     font-family: $font-headline;
     font-size: $font-size-h4 !important;
 
+    &:before {
+        // sets the brand name
+        content: 'WL';
+    }
+
     &:hover {
         text-decoration: underline !important;
+    }
+}
+
+
+// ----- Media Query specific styles ----- //
+
+@media(min-width: map-get($breakpoints, 'phone')){
+    .navbarBrand {
+        &:before {
+            // sets the brand name
+            content: 'WILLIAM LARSSON';
+        }
     }
 }

@@ -6,7 +6,7 @@ import './styles/navigation.scss'
 function Navigation() {
     return (
         <Navbar className="navbar-custom" collapseOnSelect expand={false}>
-            <Navbar.Brand className="navbarBrand" href="/">WILLIAM LARSSON</Navbar.Brand>
+            <Navbar.Brand className="navbarBrand" href="/" />
             <Navbar.Toggle className="navbarToggle" aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
