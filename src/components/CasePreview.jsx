@@ -1,5 +1,4 @@
 import React from 'react';
-import '../global/styles.scss'
 import './styles/casePreview.scss'
 
 
@@ -11,7 +10,7 @@ function CasePreview(props) {
                 <h1>{props.data.header2}</h1>
             </div>
             <p class="caseDesc">{props.data.desc}</p>
-            {/* Call to action button here as well? */}
+            {/* Call-to-action button here as well? */}
             <div className="caseBackground">
                 {/* Should there be an img in here? */}
             </div>

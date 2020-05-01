@@ -2,12 +2,21 @@
 
 .collaborators {
     width: 100%;
-    background-color: #EFB6A3;
+    background-color: $color-font-main;
+    color: $color-font-secondary;
     margin-top: 4.5em;
     padding: 3em 0em;
     text-align: center;
+
+    h3 {
+        color: $color-background;
+    }
 }
 
 .collabHeader {
     //text-align: center;
+}
+
+.logo {
+    width: 55%;
 }

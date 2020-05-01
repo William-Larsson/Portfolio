@@ -15,17 +15,16 @@ const collabData = [
     },
     {
         id: 3,
-        header1: "BEING",
-        header2: "CURIOUS.",
+        header1: "CURI",
+        header2: "OSITY.",
         desc: "Add a desc here."
     },
     {
         id: 4,
         header1: "NET",
-        header2: "WORKING.",
+        header2: "WORK.",
         desc: "Add a desc here."
-    }
-
+    },
 ]
 
 export default collabData

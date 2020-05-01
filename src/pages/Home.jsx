@@ -2,8 +2,10 @@ import React from 'react';
 import CasePreview from '../components/CasePreview'
 import Collaborators from '../components/Collaborators'
 import CasePreviewData from './resources/data/casePreviewData'
+import CollabData from './resources/data/collabData.js'
 
 function Home() {
+    // Map all the obj from the import to a CasePreview component
     const caseData = CasePreviewData.map((data) => {
         return <CasePreview key={data.id} data={data} />
     })
@@ -11,7 +13,7 @@ function Home() {
     return (
         <div>
             {caseData[0]}
-            <Collaborators />
+            <Collaborators data={CollabData} />
             {caseData.slice(1)}
         </div>
     )

@@ -2,8 +2,7 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import 'bootstrap/dist/css/bootstrap.css' // use Bootstrap css
-//import 'bootstrap/dist/css/bootstrap.min.css' // use for production
-import '../global/styles.scss'
+// import 'bootstrap/dist/css/bootstrap.min.css' // use for production
 import './styles/navigation.scss'
 
 function Navigation() {
