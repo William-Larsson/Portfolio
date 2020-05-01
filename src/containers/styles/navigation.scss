@@ -1,32 +1,22 @@
 @import '../../global/variables'; 
 
+// TODO: I i decide to ditch bootstrap, remove !important
+
 .navbar-custom {
+    padding: 2em 0em !important;
+    background-color: $color-background;
+
     a { // for the changing (link) text color in navbar
-        color: $font-color !important;
+        color: $color-font-secondary !important;
         font-family: $font-text;
-    }
-    background-color: $background-color;
-    padding: 2rem 0rem 2rem 0rem !important;
-}
-
-
-.navbarToggle {
-    outline: none !important;
-    border: none !important;
-    background-color: $background-color;
-    font-size: $font-size-h4 !important;
-    padding: 0px !important;
-    margin: 0px !important;
-
-    &.navbarToggle:hover {
-        background-color: red !important;
+        font-size: $h3-size-phone !important;
     }
 }
 
 
 .navbarBrand {
     font-family: $font-headline;
-    font-size: $font-size-h4 !important;
+    font-size: $h4-size-phone !important;
 
     &:before {
         // sets the brand name
@@ -38,14 +28,37 @@
     }
 }
 
+.navbarToggle {
+    outline: none !important; // moved outline effect to hover/focus state.
+    border: none !important;
+    background-color: $color-background;
+    font-size: $h4-size-phone !important;
+    padding: 0px !important;
+    margin: 0px !important;
+
+    &.navbarToggle:hover,
+    &.navbarToggle:focus {
+        background-color: red !important;
+    }
+}
+
 
 // ----- Media Query specific styles ----- //
 
 @media(min-width: map-get($breakpoints, 'phone')){
     .navbarBrand {
         &:before {
-            // sets the brand name
-            content: 'WILLIAM LARSSON';
+            // changes the brand name 
+            content: 'WILLIAM';
+        }
+    }
+}
+
+@media(min-width: map-get($breakpoints, 'tablet')){
+    .navbarBrand {
+        &:after {
+            // adds to the brand name set in &:before
+            content: ' ' + 'LARSSON';
         }
     }
 }

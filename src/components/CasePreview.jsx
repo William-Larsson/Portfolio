@@ -1,18 +1,20 @@
 import React from 'react';
+import '../global/styles.scss'
 import './styles/casePreview.scss'
 
 
-function CasePreview() {
+function CasePreview(props) {
     return (
-        <div>
-            <h1 class="header" id="headerTop">WEL</h1>
-            <h1 class="header">COME.</h1>
-            <p class="caseDesc">My name is William. I'm a software developer
-            currently studying a Master of Science in
-            Interaction technology and design.
-            </p>
-            {/* Should this be an img instead? */}
-            <div className="caseBackground"></div>
+        <div className="bodyMargin caseContainer">
+            <div className="headerContainer">
+                <h1 class="highlight">{props.data.header1}</h1>
+                <h1>{props.data.header2}</h1>
+            </div>
+            <p class="caseDesc">{props.data.desc}</p>
+            {/* Call to action button here as well? */}
+            <div className="caseBackground">
+                {/* Should there be an img in here? */}
+            </div>
         </div>
     )
 }

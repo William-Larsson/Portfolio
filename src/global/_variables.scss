@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-// Media query breakpoints
+// ----- Media query breakpoints ----- //
 $breakpoints: (
   'phone': 415px, // for iPhone 8 Plus etc.
   'tablet': 768px, // TODO: might need to change these to point that make more sense?
@@ -12,24 +12,50 @@ $breakpoints: (
 ) !default;
 
 
-//Colors
-$main-color: black;
-$secondary-color: orange;
-$highlight-color: pink;
-$background-color: #fcfcfc;
+// ----- Colors ----- //
+$color-main: black;
+$color-secondary: orange;
+$color-highlight: #FFCC54;
+$color-error: red;
+$color-background: #fcfcfc;
 
 
-//Fonts
+// ----- Font colors ----- //
+$color-font-main: #10103A;
+$color-font-secondary: #B4B4B4;
+$color-font-hover: blue;
+
+
+// ----- Font Misc ----- //
 $font-size-base: 10px;
-$font-color: black;
 $font-headline: 'Montserrat', sans-serif;
 $font-text: 'Raleway', sans-serif;
 
-$font-size-h1: 16rem;
-$font-size-h2: 4rem;
-$font-size-h3: 3rem;
-$font-size-h4: 2.3rem;
-$font-size-p:  1.8rem; // aka 18px 
+
+// ----- Font sizes ----- //
+$h1-size-phone: 6rem;
+$h2-size-phone: 4rem;
+$h3-size-phone: 2.4rem;
+$h4-size-phone: 2.1rem;
+$p-size-phone:  1.7rem; // aka 17px 
+
+$h1-size-tablet: 8rem;
+$h2-size-tablet: 5rem;
+$h3-size-tablet: 3.6rem;
+$h4-size-tablet: 2.6rem;
+$p-size-tablet:  1.8rem;
+
+$h1-size-desktop: 14rem;
+$h2-size-desktop: 8rem;
+$h3-size-desktop: 4rem;
+$h4-size-desktop: 2.8rem;
+$p-size-desktop:  2rem;
+
+$h1-size-largeDesktop: 16rem;
+$h2-size-largeDesktop: 9rem;
+$h3-size-largeDesktop: 4rem;
+$h4-size-largeDesktop: 3rem;
+$p-size-largeDesktop:  2.2rem;
 
 
-//Misc
+// ----- Misc ----- //

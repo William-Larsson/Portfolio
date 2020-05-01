@@ -2,8 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './containers/App.jsx'
 import * as serviceWorker from './serviceWorker'
-import 'bootstrap/dist/css/bootstrap.css' // use Bootstrap css
-//import 'bootstrap/dist/css/bootstrap.min.css' // use for production
 import './global/styles.scss'
 
 ReactDOM.render(
