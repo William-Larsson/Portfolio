@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 import MainContainer from './MainContainer'
-import Footnote from './Footnote'
+import Footnote from '../components/Footnote'
 
 function App() {
     return (
@@ -9,7 +9,6 @@ function App() {
             <Navigation />
             <MainContainer />
             <Footnote />
-            {/*<div className="sizeTest"></div>*/}
         </>
     )
 }

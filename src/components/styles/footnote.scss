@@ -1,0 +1,16 @@
+@import '../../global/variables';
+
+
+footer {
+    margin-top: $margin-between-blocks;
+    width: 100%;
+    background-color: $color-background-footer;
+    padding: 4rem 0rem;
+}
+
+
+.footerContent {
+    h1 {
+        color: $color-font-secondary
+    }
+}

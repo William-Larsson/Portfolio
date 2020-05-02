@@ -2,21 +2,27 @@
 
 .collaborators {
     width: 100%;
-    background-color: $color-font-main;
+    background-color: $color-background-secondary;
     color: $color-font-secondary;
-    margin-top: 4.5em;
-    padding: 3em 0em;
+    margin-top: $margin-between-blocks;
+    padding: 6rem 0rem;
     text-align: center;
+    align-items: center;
 
-    h3 {
-        color: $color-background;
+    -webkit-box-shadow: $drop-shadow inset;
+    -moz-box-shadow: $drop-shadow inset;
+    box-shadow: $drop-shadow inset;
     }
-}
-
-.collabHeader {
-    //text-align: center;
-}
 
 .logo {
-    width: 55%;
+    max-width: 55%;
+    max-height: 5rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+
+    // Because Curiosum logo is so large
+    &:nth-last-of-type(2) {
+        max-height: 3.5rem;
+    }
 }

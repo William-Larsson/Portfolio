@@ -13,11 +13,13 @@ $breakpoints: (
 
 
 // ----- Colors ----- //
-$color-main: black;
-$color-secondary: orange;
 $color-highlight: #FFCC54;
 $color-error: red;
+$color-positive: green;
+$color-change: orange;
 $color-background: #fcfcfc;
+$color-background-secondary: #B4B4B4;
+$color-background-footer: #1c1b20;
 
 
 // ----- Font colors ----- //
@@ -35,8 +37,8 @@ $font-text: 'Raleway', sans-serif;
 // ----- Font sizes ----- //
 $h1-size-phone: 6rem;
 $h2-size-phone: 4rem;
-$h3-size-phone: 2.4rem;
-$h4-size-phone: 2.1rem;
+$h3-size-phone: 2.1rem;
+$h4-size-phone: 1.9rem;
 $p-size-phone:  1.7rem; // aka 17px 
 
 $h1-size-tablet: 8rem;
@@ -59,3 +61,5 @@ $p-size-largeDesktop:  2.2rem;
 
 
 // ----- Misc ----- //
+$drop-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+$margin-between-blocks: 10rem;

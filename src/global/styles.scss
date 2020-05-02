@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-headline;
     color: $color-font-main;
     margin-bottom: 0em;
+    line-height: 1.0;
 }
 
 
@@ -43,7 +44,8 @@ p {
 }
 
 .bodyMargin {
-    margin: 0em 2em;
+    margin-left: 2em;
+    margin-right:2em;
 }
 
 .highlight {

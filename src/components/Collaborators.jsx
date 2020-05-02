@@ -17,7 +17,7 @@ function Collaborators(props) {
 
     return (
         <div className="collaborators">
-            <h3 className="collabHeader">previous collaborators</h3>
+            <h3 className="collabHeader">PREVIOUS WORK.</h3>
             <div>
                 {collab}
             </div>
