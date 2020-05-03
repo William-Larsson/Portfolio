@@ -7,7 +7,7 @@ This is my online portfolio, built with modern web development tools such as Rea
 This project is currently a **Work in progress.** <br />
 If you wish to run the website locally on your own computer, you need to install 
 `node.js`.  I'm using version 12.16.1, so go for that version if you're unsure. 
-When Node.js is installed, you can run the available scripts *.
+When Node.js is installed, you can run the available scripts.
 
 
 ## Available Scripts
@@ -36,4 +36,4 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-* if any of the scripts are failing to compile and start, try running this command from the root directory: `npm install`
+:exclamation: if any of the scripts are failing to compile and start, try running this command from the root directory: `npm install`
