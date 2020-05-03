@@ -2,7 +2,6 @@
 
 // ----- Global Styles ----- //
 :root {
-    background-color: $color-background;
     font-size: $font-size-base;
     padding: 0px;
     box-sizing: border-box;
@@ -35,7 +34,7 @@ h3 { font-size: $h3-size-phone !important; }
 h4 { font-size: $h4-size-phone !important; }
 
 
-p {
+p, a {
     // TODO: can I break out color: $font-color to the :root ?
     color: $color-font-main;
     font-family: $font-text;

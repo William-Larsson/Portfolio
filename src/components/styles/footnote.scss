@@ -11,6 +11,20 @@ footer {
 
 .footerContent {
     h1 {
-        color: $color-font-secondary
+        color: $color-font-secondary;
+    }
+
+    p, a {
+        color: $color-font-secondary;
+    }
+
+    p:first-of-type {
+        margin-top: 2rem;
+    }
+
+    p a:hover {
+        color: $color-change;
+        text-decoration: underline;
+        
     }
 }

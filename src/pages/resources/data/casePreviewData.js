@@ -1,6 +1,7 @@
 const collabData = [
     {
         id: 1,
+        headerColor: "#FFCC54",
         header1: "WEL",
         header2: "COME.",
         desc: "My name is William. I'm a software developer" +
@@ -9,6 +10,7 @@ const collabData = [
     },
     {
         id: 2,
+        headerColor: "#187F9A",
         header1: "PHOTO",
         header2: "BOOKS.",
         desc: "A project focused entirely on design and UX. " +
@@ -18,6 +20,7 @@ const collabData = [
     },
     {
         id: 3,
+        headerColor: "#E79175",
         header1: "CURI",
         header2: "OSITY.",
         desc: "A large-scale project to build an AR-app " +
@@ -27,6 +30,7 @@ const collabData = [
     },
     {
         id: 4,
+        headerColor: "#577F72",
         header1: "NET",
         header2: "WORK.",
         desc: "A design proposal for a social network aimed " +
