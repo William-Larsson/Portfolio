@@ -1,4 +1,5 @@
 # TODO-List 
+A list of things I want to implement to my portfolio, but sadly haven't had time to do just yet.
 
 ## Navbar
 - Remove React-Bootstrap and Bootstrap (from code and ./node_modules)
