@@ -35,5 +35,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+---
 
 :exclamation: if any of the scripts are failing to compile and start, try running this command from the root directory: `npm install`
