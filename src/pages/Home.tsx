@@ -1,5 +1,5 @@
 import React from 'react';
-import CasePreview from '../components/CasePreview.tsx'
+import CasePreview from '../components/CasePreview'
 import Collaborators from '../components/Collaborators'
 import CasePreviewData from './resources/data/casePreviewData'
 import CollabData from './resources/data/collabData.js'
