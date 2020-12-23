@@ -1,7 +1,17 @@
 import React from 'react';
 import './styles/collaborators.scss'
 
-function Collaborators(props) {
+
+interface Props {
+    data: {
+        id: number;
+        logo: string;
+        alt: string;
+    }[]
+}
+
+
+function Collaborators(props: Props) {
 
     const collab = props.data.map((data) => {
         const logoPath = process.env.PUBLIC_URL + data.logo
