@@ -2,7 +2,7 @@ import React from 'react';
 import CasePreview from '../components/CasePreview'
 import Collaborators from '../components/Collaborators'
 import CasePreviewData from './resources/data/casePreviewData'
-import CollabData from './resources/data/collabData.js'
+import CollabData from './resources/data/collabData'
 
 function Home() {
     // Map all the obj from the import to a CasePreview component
